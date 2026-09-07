@@ -23,8 +23,9 @@ The website was created using HTML and Sass.
 
 The website is also uploaded to the Web 4 server.
 
-Web 4 Link:
+Web 4 Link:https://in-info-web4.luddy.indianapolis.iu.edu/~aadesaki/n315/homework1/
 
 ## GitHub
 
 The project is hosted on GitHub.
+https://github.com/akinwaleadesakin/homework1
