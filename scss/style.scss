@@ -1,0 +1,93 @@
+$red: #e10600;
+$black: #111111;
+$gray: #eeeeee;
+$white: #ffffff;
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: $black;
+    background-color: $white;
+}
+
+nav {
+    background-color: $black;
+    color: $white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h2 {
+    margin: 0;
+    color: $red;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: $white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: $red;
+}
+
+.hero {
+    background-color: $black;
+    color: $white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.gray {
+    background-color: $gray;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.cards div {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    flex: 1;
+}
+
+.cards h3 {
+    color: $red;
+}
+
+footer {
+    background-color: $black;
+    color: $white;
+    text-align: center;
+    padding: 25px;
+}
